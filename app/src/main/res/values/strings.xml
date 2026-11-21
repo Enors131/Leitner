@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Leitner</string>
+    <string name="widget_label">Leitner 2×3</string>
+    <string name="widget_description">۵ کلمه برای مرور. لمس اول: معنی، لمس دوم: انتخاب سبز یا قرمز.</string>
+    <string name="widget_empty">امروز کلمه‌ای برای مرور نیست ✓\nبرای افزودن کلمه، اپ را باز کنید</string>
+</resources>
