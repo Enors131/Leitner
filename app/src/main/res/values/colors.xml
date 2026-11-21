@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#F5F5F3</color>
+    <color name="ic_launcher_background">#2B2B2B</color>
+
+    <!-- Widget palette: soft neutrals + two solid answer colors -->
+    <color name="w_bg">#F4F4F1</color>
+    <color name="w_border">#E2E2DE</color>
+    <color name="w_card">#FFFFFF</color>
+    <color name="w_card_border">#E8E8E4</color>
+    <color name="w_card_flipped">#EEF1F6</color>
+    <color name="w_card_flipped_border">#DCE1EA</color>
+    <color name="w_text">#1C1C1E</color>
+    <color name="w_muted">#8E8E93</color>
+    <color name="w_green">#4CAF50</color>
+    <color name="w_red">#EF5350</color>
+</resources>
