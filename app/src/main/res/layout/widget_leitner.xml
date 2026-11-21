@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated layout: 5 independent slots (RemoteViews cannot reuse ids via <include>) -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/rows"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Slot 0 -->
+        <FrameLayout
+            android:id="@+id/row0"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_bg">
+
+            <!-- State 0: the word -->
+            <TextView
+                android:id="@+id/word0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="abandon"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp" />
+
+            <!-- State 1: the meaning -->
+            <TextView
+                android:id="@+id/meaning0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <!-- State 2: two solid color blocks (no text, no icons) -->
+            <LinearLayout
+                android:id="@+id/btns0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/green0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green" />
+
+                <FrameLayout
+                    android:id="@+id/red0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Slot 1 -->
+        <FrameLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_bg">
+
+            <!-- State 0: the word -->
+            <TextView
+                android:id="@+id/word1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="benevolent"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp" />
+
+            <!-- State 1: the meaning -->
+            <TextView
+                android:id="@+id/meaning1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <!-- State 2: two solid color blocks (no text, no icons) -->
+            <LinearLayout
+                android:id="@+id/btns1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/green1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green" />
+
+                <FrameLayout
+                    android:id="@+id/red1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Slot 2 -->
+        <FrameLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_bg">
+
+            <!-- State 0: the word -->
+            <TextView
+                android:id="@+id/word2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="candid"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp" />
+
+            <!-- State 1: the meaning -->
+            <TextView
+                android:id="@+id/meaning2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <!-- State 2: two solid color blocks (no text, no icons) -->
+            <LinearLayout
+                android:id="@+id/btns2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/green2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green" />
+
+                <FrameLayout
+                    android:id="@+id/red2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Slot 3 -->
+        <FrameLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_bg">
+
+            <!-- State 0: the word -->
+            <TextView
+                android:id="@+id/word3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="diligent"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp" />
+
+            <!-- State 1: the meaning -->
+            <TextView
+                android:id="@+id/meaning3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <!-- State 2: two solid color blocks (no text, no icons) -->
+            <LinearLayout
+                android:id="@+id/btns3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/green3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green" />
+
+                <FrameLayout
+                    android:id="@+id/red3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Slot 4 -->
+        <FrameLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/card_bg">
+
+            <!-- State 0: the word -->
+            <TextView
+                android:id="@+id/word4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="elaborate"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp" />
+
+            <!-- State 1: the meaning -->
+            <TextView
+                android:id="@+id/meaning4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/w_text"
+                android:textDirection="firstStrong"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <!-- State 2: two solid color blocks (no text, no icons) -->
+            <LinearLayout
+                android:id="@+id/btns4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/green4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green" />
+
+                <FrameLayout
+                    android:id="@+id/red4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_red" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/widget_empty"
+        android:textColor="@color/w_muted"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+</FrameLayout>
